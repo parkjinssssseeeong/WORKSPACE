@@ -5,8 +5,6 @@
 conda create -n '원하는 가상환경 이름' python==3.10.13
 
 ## 필수 패키지 설치
-# 인터랙티브 개발을 위한 Jupyter 설치
-pip install jupyter
 
 # 생성한 가상 환경 활성화
 conda activate '원하는 가상환경 이름'
@@ -34,3 +32,5 @@ pip install numpy==1.23.5
 # 데이터 디렉토리 경로와 결과 디렉토리를 지정하여 SEJONG.PY 실행
 python SEJONG.py --data_dir '데이터 디렉토리 경로' --result_dir ./result
 # 주의: 결과 디렉토리가 없으면 생성됩니다. 결과를 저장할 다른 경로도 지정할 수 있습니다.
+***  중요사항 
+SEJONG.py 파일과 model 폴더가 같은 디렉토리나 위치에 있으면 명령어 돌아갑니다.
